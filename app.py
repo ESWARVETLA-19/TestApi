@@ -1,14 +1,3 @@
-
-from flask import Flask, jsonify
-
-app = Flask(__name__)
-
-@app.route('/api/data')
-def get_data():
-    return jsonify({'message': 'Hello from Flask API on Render!'})
-
-if __name__ == '__main__':
-    app.run()
 # app.py
 from flask import Flask, jsonify
 
